@@ -1,0 +1,16 @@
+#Inicializar repositorio
+
+$ git init
+
+#Ner nuevos cambios
+$git status
+
+#Agregar el area de preparacion
+$ git add index.html
+
+#Agregar todos los archivos
+$ git add -A
+
+#Definir  nodo temporal
+#Guardar cambios con un mensaje
+$git commit -m "Iniciar proyecto"
