@@ -13,4 +13,34 @@ $ git add -A
 
 #Definir  nodo temporal
 #Guardar cambios con un mensaje
-$git commit -m "Iniciar proyecto"
+$ git commit -m "Iniciar proyecto"
+
+#Listar commits
+$ git log
+
+#Mostrar ayuda
+$ git help
+
+#Ver ramas
+$ git branch
+
+#Crear rama
+$ git branc nombreRama
+
+#Moverse a la rama
+$ git checkout nombreRama
+
+#Eliminar Rama
+$ git branch -D nombreRama
+
+#
+$ git merge nombreRama 
+
+#salvar los comiits
+$ git log > commits.txt
+
+#Moverse al commit
+$ git checkout SHA-CODE
+
+
+
