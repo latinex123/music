@@ -42,5 +42,30 @@ $ git log > commits.txt
 #Moverse al commit
 $ git checkout SHA-CODE
 
+#Hacer la vinculacion
+$ git remote add origin URL
+
+#Comprobar la conexion
+$ git remote -v
+
+#Eliminar el vinculo
+$ git remote remove origin
+
+#Mandar nuevos commits a GitHub
+$ git push origin rama
+$ git push original master
+
+#Clonar un repo existente
+$ git clone URL
+
+#Ver ramas ocultas
+$ git branch -a
+
+#Bajar cambios de master a la rama oculta
+$ git fetch origin master
+
+#Absorber los cambios de la rama oculta en master
+$ git merge origin/master
+
 
 
